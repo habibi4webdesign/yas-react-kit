@@ -13,7 +13,8 @@ const prodConfig = {
     path: path.resolve(__dirname, "../dist"),
     clean: true,
     library: pkg.name,
-    libraryTarget: "commonjs2",
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   // optimization: {
   //   minimize: true,
