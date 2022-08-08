@@ -1,6 +1,6 @@
 {
   "name": "yas-react-kit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "best react components ever",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/habibi4webdesign/yas-react-kit.git"
