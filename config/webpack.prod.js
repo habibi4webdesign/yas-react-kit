@@ -7,8 +7,8 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const prodConfig = {
   mode: "production",
   output: {
-    filename: "[name].[contenthash].js",
-    publicPath: "/marketing/latest/",
+    filename: "index.js",
+    publicPath: "/",
     clean: true,
   },
   optimization: {

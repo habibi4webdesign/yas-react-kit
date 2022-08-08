@@ -1,9 +1,10 @@
+import { Button } from "components";
 import React from "react";
 import ReactDOM from "react-dom";
 
 const App = () => {
   return (
-    <div>App</div>
+    <div><Button label="Log"></Button></div>
   )
 }
 
