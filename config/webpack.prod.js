@@ -35,20 +35,36 @@ const prodConfig = {
     },
   },
   externals: {
-    // Don't bundle react or react-dom
     react: {
-      commonjs: "react",
-      commonjs2: "react",
-      amd: "React",
-      root: "React",
+        root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react'
     },
-    "react-dom": {
-      commonjs: "react-dom",
-      commonjs2: "react-dom",
-      amd: "ReactDOM",
-      root: "ReactDOM",
-    },
-  },
+    'react-dom': {
+        root: 'ReactDOM',
+        commonjs2: 'react-dom',
+        commonjs: 'react-dom',
+        amd: 'react-dom'
+    }
+}
+  // externals: {
+  //   "react": "React",
+  //   "react-dom": "ReactDOM",
+  //   // Don't bundle react or react-dom
+  //   // react: {
+  //   //   commonjs: "react",
+  //   //   commonjs2: "react",
+  //   //   amd: "React",
+  //   //   root: "React",
+  //   // },
+  //   // "react-dom": {
+  //   //   commonjs: "react-dom",
+  //   //   commonjs2: "react-dom",
+  //   //   amd: "ReactDOM",
+  //   //   root: "ReactDOM",
+  //   // },
+  // },
 };
 
 module.exports = merge(commonConfig, prodConfig);
