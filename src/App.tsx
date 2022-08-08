@@ -1,10 +1,10 @@
-import { Button } from "components";
+// import { Button } from "components";
 import React from "react";
 // import ReactDOM from "react-dom";
 
 const App = () => {
   return (
-    <div><Button label="Log"></Button></div>
+    <div>asdasd</div>
   )
 }
 //@ts-ignore
