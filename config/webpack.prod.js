@@ -15,10 +15,10 @@ const prodConfig = {
     library: pkg.name,
     libraryTarget: "commonjs2",
   },
-  optimization: {
-    minimize: true,
-    minimizer: [`...`, new CssMinimizerPlugin({})],
-  },
+  // optimization: {
+  //   minimize: true,
+  //   minimizer: [`...`, new CssMinimizerPlugin({})],
+  // },
   module: {
     rules: [
       {
