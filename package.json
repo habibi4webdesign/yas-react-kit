@@ -1,6 +1,6 @@
 {
   "name": "yas-react-ui-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "best react components ever",
   "main": "dist/index.js",
   "scripts": {
