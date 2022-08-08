@@ -10,11 +10,10 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "index.js",
-    publicPath: "/",
     path: path.resolve(__dirname, "../dist"),
     clean: true,
     library: pkg.name,
-    libraryTarget: "commonjs",
+    libraryTarget: "commonjs2",
   },
   optimization: {
     minimize: true,
