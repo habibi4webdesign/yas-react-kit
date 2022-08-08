@@ -12,3 +12,4 @@ config
 src/*.*
 src/*
 src
+.storybook/*
