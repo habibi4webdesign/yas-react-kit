@@ -1,0 +1,7 @@
+.inside{
+    font-size: 25px;
+}
+
+.outside .inside{
+    font-size: 10px;
+}
